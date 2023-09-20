@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 20 21:18:02 GMT 2023","Wed Sep 20 21:18:05 GMT 2023","2647","Login","with wrong credentials","","login_page_spec","","cannot log in","Location - spec/login_page_spec.rb:31"
+"passed","Wed Sep 20 21:17:59 GMT 2023","Wed Sep 20 21:18:02 GMT 2023","3578","Login","with right credentials","","login_page_spec","","can successfully log in","Location - spec/login_page_spec.rb:23"
