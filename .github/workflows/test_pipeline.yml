@@ -33,8 +33,12 @@ jobs:
       - name: Create screenshots folder
         run: mkdir -p allure-results/screenshots
 
+      - name: Prepare the browser options
+        run: raider utility browser_options headless no-sandbox window-size=1920,1080
+
       - name: Build and test with rspec
         run: bundle exec rspec spec --format documentation
+
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
